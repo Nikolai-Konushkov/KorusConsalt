@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>КОРУС Консалтинг</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+
+	<p style="margin-left: 10px; margin-bottom: 50px">Верстка timeline без flex/grid и без JS. Таймланы по верстке одинаковые, вид меняется добавлением класса в тег-обертку с классом "timeline"</p>
+
+	<div class="timeline point-view up-text">
+		<div class="item done">
+			<span class="item__text">Step 1</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item done">
+			<span class="item__text">Step 2</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item proccesed">
+			<span class="item__text">Step 3</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item default">
+			<span class="item__text">Step 4</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>	
+		</div>
+	</div>
+
+	<div class="timeline line-view up-text">
+		<div class="item done">
+			<span class="item__text">Step 1</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item done">
+			<span class="item__text">Step 2</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item proccesed">
+			<span class="item__text">Step 3</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item default">
+			<span class="item__text">Step 4</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>	
+		</div>
+	</div>
+
+	<div class="timeline point-view down-text">
+		<div class="item done">
+			<span class="item__text">Step 1</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item done">
+			<span class="item__text">Step 2</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item proccesed">
+			<span class="item__text">Step 3</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item default">
+			<span class="item__text">Step 4</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>	
+		</div>
+	</div>
+
+	<div class="timeline line-view down-text">
+		<div class="item done">
+			<span class="item__text">Step 1</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item done">
+			<span class="item__text">Step 2</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item proccesed">
+			<span class="item__text">Step 3</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item default">
+			<span class="item__text">Step 4</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>	
+		</div>
+	</div>
+
+	<p style="margin-left: 10px; margin-top: 50px; margin-bottom: 50px">Таймлайн с элементами управления (верстка таже. JS добавляет классы для отображения и увеличивает количество шагов)</p>
+
+	<div class="dynamic timeline point-view up-text">
+		<div class="item done">
+			<span class="item__text">Step 1</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item done">
+			<span class="item__text">Step 2</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item proccesed">
+			<span class="item__text">Step 3</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>
+		</div>
+		<div class="item default">
+			<span class="item__text">Step 4</span class="item__text">
+			<div class="item__line"></div>
+			<div class="item__circle"></div>	
+		</div>
+	</div>
+
+	<div class="manage">
+		<div class="btn plus-step">Добавить шаг</div>
+		<div class="btn minus-step">Убавить шаг</div>
+		<div class="btn all-step">Выполнить все шаги</div>
+		<div class="btn none-step">Нет выполненных шагов</div>
+	</div>
+	<div class="view">
+		<div class="btn label-top">Лейблы сверху</div>
+		<div class="btn label-bottom">Лейблы снизу</div>
+		<div class="btn points">Точки</div>
+		<div class="btn lines">Отрезки</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
